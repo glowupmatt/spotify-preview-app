@@ -25,6 +25,9 @@ const scopes = [
   "playlist-read-private",
   "playlist-read-collaborative",
   "streaming",
+  "user-read-playback-position",
+  "user-top-read",
+  "user-read-recently-played",
 ];
 
 authURL.searchParams.append("scope", scopes.join(" "));

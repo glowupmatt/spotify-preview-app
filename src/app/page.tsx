@@ -1,9 +1,14 @@
-import Image from "next/image";
+import HomePage from "@/components/homePageComp/HomePage";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      jgkjkjb
+    <main className="bg-gradient-to-b from-[#535353] to-[#000000]">
+      <HomePage />
     </main>
   );
 }
+
+// color: transparent;
+// width: 24rem;
+// height: 65rem;
+// right: 6rem;
